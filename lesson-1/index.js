@@ -1,17 +1,38 @@
 const colors = require("colors");
 const getPrimes = (start, max) => {
-  var sieve = [],
-    i,
-    j,
-    primes = [];
-  for (i = start; i <= max; ++i) {
-    if (!sieve[i]) {
-      primes.push(i);
-      for (j = i << 1; j <= max; j += i) {
-        sieve[j] = true;
+  // var sieve = [],
+  //   i,
+  //   j,
+  //   primes = [];
+  // for (i = start; i <= max; ++i) {
+  //   if (!sieve[i]) {
+  //     primes.push(i);
+  //     for (j = i << 1; j <= max; j += i) {
+  //       sieve[j] = true;
+  //     }
+  //   }
+  // }
+  // return primes;
+  primes = [];
+
+  for (let i = start; i <= max; i++) {
+    let flag = 0;
+
+    // looping through 2 to user input number
+    for (let j = 2; j < i; j++) {
+      if (i % j == 0) {
+        flag = 1;
+
+        break;
       }
     }
+
+    // if number greater than 1 and not divisible by other numbers
+    if (i > 1 && flag == 0) {
+      primes.push(i);
+    }
   }
+
   return primes;
 };
 
@@ -62,6 +83,21 @@ if (numbers.length < 1) {
   return false;
 }
 
-numbers.forEach((element, i) => {
-  printColorNumber(element, i);
+let iterator = 1;
+
+numbers.forEach((element) => {
+  if (iterator === 1) {
+    console.log(colors.green(element));
+    iterator++;
+    if (iterator > 3) iterator = 1;
+  } else if (iterator === 2) {
+    console.log(colors.yellow(element));
+    iterator++;
+    if (iterator > 3) iterator = 1;
+  } else if (iterator === 3) {
+    console.log(colors.red(element));
+    iterator++;
+    if (iterator > 3) iterator = 1;
+  }
+  //printColorNumber(element, i);
 });
