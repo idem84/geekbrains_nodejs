@@ -1,0 +1,6 @@
+192.168.174.162 - - [08/Feb/2021:13:38:01 +0300] "GET /assets/i/label.png HTTP/1.1" 200 1273 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
+192.168.174.162 - - [08/Feb/2021:13:38:01 +0300] "GET /assets/i/home.png HTTP/1.1" 200 801 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
+192.168.174.162 - - [08/Feb/2021:13:38:01 +0300] "GET /assets/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
+192.168.174.162 - - [08/Feb/2021:13:38:01 +0300] "GET /assets/js/jquery-ui.min.js HTTP/1.1" 200 36675 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
+192.168.174.162 - - [08/Feb/2021:13:38:01 +0300] "GET /assets/js/vue.min.js HTTP/1.1" 200 86452 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
+192.168.174.162 - - [08/Feb/2021:13:38:01 +0300] "GET /assets/js/bootstrap.min.js HTTP/1.1" 200 15032 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
