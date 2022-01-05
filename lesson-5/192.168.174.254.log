@@ -1,8 +1,0 @@
-192.168.174.254 - - [08/Feb/2021:13:37:52 +0300] "GET / HTTP/1.1" 302 5 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-192.168.174.254 - - [08/Feb/2021:13:37:52 +0300] "GET /login/ HTTP/1.1" 200 21118 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-192.168.174.254 - - [08/Feb/2021:13:37:53 +0300] "GET /assets/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-192.168.174.254 - - [08/Feb/2021:13:37:53 +0300] "GET /assets/js/bootstrap.min.js HTTP/1.1" 200 15032 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-192.168.174.254 - - [08/Feb/2021:13:37:53 +0300] "GET /assets/i/favicon.ico HTTP/1.1" 200 1518 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-192.168.174.254 - - [08/Feb/2021:13:38:01 +0300] "POST /login/ HTTP/1.1" 301 5 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-192.168.174.254 - - [08/Feb/2021:13:38:01 +0300] "GET / HTTP/1.1" 302 5 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-192.168.174.254 - - [08/Feb/2021:13:38:01 +0300] "GET / HTTP/1.1" 200 33270 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
